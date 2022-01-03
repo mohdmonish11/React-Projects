@@ -1,0 +1,9 @@
+.error{
+  margin-top: 10%;
+  color: red;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: space-around;
+}

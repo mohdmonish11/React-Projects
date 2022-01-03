@@ -1,0 +1,13 @@
+.sub-result-box{
+    /* border: 5px solid rgb(170, 122, 122); */
+    outline-style: dotted;
+    outline-color: rgb(134, 173, 173);
+    margin:10px;
+    padding:5px;
+    width:auto;
+    background-color: rgb(179, 221, 179);
+    color:rgb(29, 27, 27);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}

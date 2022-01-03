@@ -1,0 +1,43 @@
+.main-elements-box{
+  margin-top: 100px;
+  margin-left:50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.box-elements{
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.box-elements :first-child {
+  align-self: center;
+}
+
+.sub-box-element{
+  margin:10px;
+  padding:5px;
+  width:auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: space-around;
+  color:rgb(141, 38, 38);
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: coral;
+}
+
+.heading-list-recipe{
+  /* margin-top:50px; */
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: rgb(4, 51, 51);
+  justify-content: space-around;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+.main-box{
+  margin:20px;
+  padding: 10px;
+  outline-width: 5px;
+}
+.heading{
+  margin-top:50px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: rgb(4, 51, 51);
+  justify-content: space-around;
+}
+.box {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.box :first-child {
+  align-self: center;
+}
+.sub-boxes{
+  margin:10px;
+  padding:5px;
+  width:auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: space-around;
+}
+.ing{
+  font-weight: 500;
+  font-family: cursive;
+  text-align: center;
+}
+.meal-name{
+  font-family: 'Eczar', serif;
+  text-align: center;
+  font-size: 15px;
+}

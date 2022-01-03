@@ -1,0 +1,20 @@
+form{
+  margin:30px;
+  outline-style: solid;
+  outline-color:white;
+  outline-width: 5px;
+  justify-content: space-around;
+  display: flex;
+}
+.loader{
+  text-align: center;
+}
+.error-display{
+  margin-top: 10%;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+}

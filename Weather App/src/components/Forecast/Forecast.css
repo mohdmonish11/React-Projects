@@ -1,0 +1,28 @@
+.main-box{
+  margin:20px;
+  padding: 10px;
+  outline-style: solid;
+  outline-width: 5px;
+  outline-color: rgb(177, 109, 83);
+  background-color: rgb(226, 221, 178);
+}
+.forecast-heading{
+  margin:10px;
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  justify-content: space-around;
+}
+.box {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.box :first-child {
+  align-self: center;
+}

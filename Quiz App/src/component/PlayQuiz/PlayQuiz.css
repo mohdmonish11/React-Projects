@@ -1,0 +1,8 @@
+.play_quiz{
+  padding: 20px;
+  align-self: center;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+}

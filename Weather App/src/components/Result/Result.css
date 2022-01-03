@@ -1,0 +1,24 @@
+.result-box{
+  /* border: 5px solid rgb(170, 122, 122); */
+  outline-style: double;
+  outline-color: rgb(134, 173, 173);
+  outline-width: 10px;
+  margin:auto;
+  padding:25px;
+  width:25%;
+  background-color: rgb(179, 221, 179);
+  color:rgb(29, 27, 27);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.description{
+  text-transform: uppercase;
+}
+.weather-icon{
+  height: 80px;
+  width: 80px;
+}
+.forecast{
+  margin: 10px;
+}
